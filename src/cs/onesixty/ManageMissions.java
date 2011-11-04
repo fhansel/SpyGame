@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class Menu extends Activity {
+public class ManageMissions extends Activity {
 	Button b_new_mission, b_deferred_mission;
 	
     /** Called when the activity is first created. */
@@ -21,6 +21,13 @@ public class Menu extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), NewMission.class);
+				startActivityForResult(intent, 0);
+			}
+		});
+		b_deferred_mission.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(v.getContext(), null);
 				startActivityForResult(intent, 0);
 			}
 		});
