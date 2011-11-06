@@ -16,5 +16,7 @@
         <activity android:name=".ManageMissions" />
         <activity android:name=".NewMission" />
         <activity android:name=".MeetContact" />
+        <activity android:name=".DeferredMissions" />
+        <activity android:name=".HighScores" />
     </application>
 </manifest>
