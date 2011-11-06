@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Menu extends Activity {
 	Button b_new_mission, b_deferred_mission;
-
+	
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

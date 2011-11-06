@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center"
+        android:text="Manage Friends"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnMyFriends"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="My Friends" />
+
+    <Button
+        android:id="@+id/btnFindFriends"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:text="Find Friends" />
+
+</LinearLayout>
