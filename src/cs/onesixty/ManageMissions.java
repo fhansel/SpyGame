@@ -27,7 +27,7 @@ public class ManageMissions extends Activity {
 		b_deferred_mission.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(v.getContext(), null);
+				Intent intent = new Intent(v.getContext(), DeferredMissions.class);
 				startActivityForResult(intent, 0);
 			}
 		});

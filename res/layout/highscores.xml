@@ -11,25 +11,15 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|center"
         android:gravity="center_horizontal"
-        android:text="Main Menu"
+        android:text="High Scores"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <Button
-        android:id="@+id/b_main_1"
-        android:layout_width="200dp"
+    
+    <TextView
+        android:id="@+id/tv_highscores"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Manage Missions" />
-
-    <Button
-        android:id="@+id/b_main_2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Manage Friends" />
-
-    <Button
-        android:id="@+id/b_main_3"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="High Scores" />
+        android:layout_gravity="center_vertical|center"
+        android:gravity="center_horizontal"
+        android:text="@string/highscores_default" />
 
 </LinearLayout>

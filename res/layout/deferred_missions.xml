@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/linearLayout1"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:gravity="center_horizontal"
     android:orientation="vertical" >
 
     <TextView
-        android:id="@+id/tv_manage_mission"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/manage_mission" 
+        android:text="@string/mission_list" 
         android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
-
+    
     <Button
-        android:id="@+id/b_new_mission"
-        android:layout_width="200dp"
+        android:id="@+id/b_dmission1"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="New Mission" />
-
+        android:text="@string/mission1" />
+    
     <Button
-        android:id="@+id/b_deferred_mission"
-        android:layout_width="200dp"
+        android:id="@+id/b_dmission2"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Deferred Mission" />
+        android:text="@string/mission2" />
+    
+    <Button
+        android:id="@+id/b_dmission3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mission3" />
 
 </LinearLayout>

@@ -8,4 +8,5 @@
     <string name="mission2">Practice Camouflage</string>
     <string name="mission3">Meet A Contact</string>
     <string name="meet_contact_prompt">Follow the map below to find AGENT012. Use your secret message to make sure that you find the correct person. At last, ask the contact to enter the secret code to complete the mission.</string>
+    <string name="highscores_default">Longest distance walked: 0 miles \nFastest completion time: 20 seconds</string>
 </resources>
