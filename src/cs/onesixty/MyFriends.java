@@ -1,6 +1,7 @@
 package cs.onesixty;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.*;
 import android.widget.*;
@@ -20,9 +21,12 @@ public class MyFriends extends ListActivity {
 	  lv.setOnItemClickListener(new OnItemClickListener() {
 	    public void onItemClick(AdapterView<?> parent, View view,
 	        int position, long id) {
-	    
+	    	Intent in = new Intent().setClass(MyFriends.this, InteractFriends.class);
+	    	in.putExtra("friend_name", ((TextView) view).getText());
+	    	startActivity(in);
+	    /*
 	      Toast.makeText(getApplicationContext(), ((TextView) view).getText(),
-	          Toast.LENGTH_SHORT).show();
+	          Toast.LENGTH_SHORT).show();*/
 	    }
 	  });
 	}

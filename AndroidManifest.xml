@@ -29,6 +29,7 @@
         <activity android:name=".MeetContact" />
         <activity android:name=".DeferredMissions" />
         <activity android:name=".HighScores" />
+        <activity android:name="InteractFriends"></activity>
     </application>
 
 </manifest>
