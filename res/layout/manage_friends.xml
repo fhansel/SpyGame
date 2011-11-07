@@ -32,14 +32,26 @@
             android:text="Search for friends"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <AutoCompleteTextView
-            android:id="@+id/autocomplete_friends"
-            android:layout_width="242dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp" >
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
 
-            <requestFocus />
-        </AutoCompleteTextView>
+            <AutoCompleteTextView
+                android:id="@+id/autocomplete_friends"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnGo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Go" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -47,6 +59,7 @@
         android:id="@+id/relativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
     </RelativeLayout>
 
 </LinearLayout>
