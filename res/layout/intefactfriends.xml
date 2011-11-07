@@ -5,7 +5,7 @@
     android:orientation="vertical" android:gravity="center_horizontal">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/interactFriendsLabel"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
         android:text="Interact with friends"

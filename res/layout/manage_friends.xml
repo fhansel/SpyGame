@@ -13,16 +13,40 @@
         android:text="Manage Friends"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    <Button
-        android:id="@+id/btnMyFriends"
-        android:layout_width="177dp"
-        android:layout_height="wrap_content"
-        android:text="My Friends" />
+    <ListView
+        android:id="@+id/friendsList"
+        android:layout_width="match_parent"
+        android:layout_height="234dp" >
+    </ListView>
 
-    <Button
-        android:id="@+id/btnFindFriends"
-        android:layout_width="174dp"
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Find Friends" />
+        android:orientation="vertical" android:paddingTop="60px">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search for friends"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete_friends"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </RelativeLayout>
 
 </LinearLayout>

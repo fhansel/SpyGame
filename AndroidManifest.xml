@@ -19,11 +19,13 @@
         <activity android:name=".DefuseBomb_Map"></activity>
         <activity android:name=".DefuseBomb_Game"></activity>
         <activity android:name="FindFriends"></activity>
+        <activity android:name="ManageFriends" ></activity>
         <activity android:name=".ManageMissions" />
         <activity android:name=".NewMission" />
         <activity android:name=".MeetContact" />
         <activity android:name=".DeferredMissions" />
         <activity android:name=".HighScores" />
+        <activity android:name="InteractFriends"></activity>
         
 		<uses-library android:name="com.google.android.maps" />
 		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
