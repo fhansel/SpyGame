@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cs.onesixty"
-    android:versionCode="1"
-    android:versionName="1.0" >
-
-    <uses-sdk android:minSdkVersion="8" />
-
-    <application
-        android:icon="@drawable/icon"
-        android:label="@string/app_name" >
-        <activity
-            android:label="@string/app_name"
-            android:name=".Menu" >
-            <intent-filter >
+      package="cs.onesixty"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8"/>
+    <uses-sdk android:targetSdkVersion="8" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".Menu"
+                  android:label="@string/app_name">
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="MyFriends" >
-        </activity>
-        <activity android:name="ManageFriends" >
-        </activity>
-        <activity android:name="FindFriends" >
-        </activity>
+        <activity android:name=".DefuseBomb"></activity>
+        <activity android:name="MyFriends"></activity>
+        <activity android:name="ManageFriends"></activity>
+        <activity android:name=".DefuseBomb_Map"></activity>
+        <activity android:name=".DefuseBomb_Game"></activity>
+        <activity android:name="FindFriends"></activity>
         <activity android:name=".ManageMissions" />
         <activity android:name=".NewMission" />
         <activity android:name=".MeetContact" />
         <activity android:name=".DeferredMissions" />
         <activity android:name=".HighScores" />
+        
+		<uses-library android:name="com.google.android.maps" />
+		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
     </application>
-
 </manifest>
