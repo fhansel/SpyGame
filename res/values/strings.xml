@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, Menu!</string>
     <string name="app_name">SpyGame</string>
+    <string name="Mission">Mission: Disarm the Bomb</string>
+    <string name="MissionDetails">\nYour mission, should you choose to accept it, \nis to reach Cory Hall and disarm the bomb \nwithin 15 minutes</string>
     <string name="manage_mission">Manage Mission</string>
     <string name="mission_list">Missions</string>
     <string name="mission1">Disarm A Bomb</string>
