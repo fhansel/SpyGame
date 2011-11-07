@@ -18,11 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="MyFriends" >
-        </activity>
         <activity android:name="ManageFriends" >
-        </activity>
-        <activity android:name="FindFriends" >
         </activity>
         <activity android:name=".ManageMissions" />
         <activity android:name=".NewMission" />
