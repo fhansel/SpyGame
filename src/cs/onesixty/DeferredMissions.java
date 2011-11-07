@@ -17,7 +17,6 @@ public class DeferredMissions extends Activity {
         setContentView(R.layout.deferred_missions);
         b_mission1 = (Button) findViewById(R.id.b_dmission1);
         b_mission1.setOnClickListener(new OnClickListener(){
-        	@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), null);
 				startActivityForResult(intent, 0);
@@ -25,7 +24,6 @@ public class DeferredMissions extends Activity {
         });
         b_mission2 = (Button) findViewById(R.id.b_dmission2);
         b_mission2.setOnClickListener(new OnClickListener(){
-        	@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), null);
 				startActivityForResult(intent, 0);
@@ -33,7 +31,6 @@ public class DeferredMissions extends Activity {
         });
         b_mission3 = (Button) findViewById(R.id.b_dmission3);
         b_mission3.setOnClickListener(new OnClickListener(){
-        	@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), MeetContact.class);
 				startActivityForResult(intent, 0);

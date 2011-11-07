@@ -10,9 +10,9 @@
         android:id="@+id/tv_manage_mission"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/manage_mission" 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:text="@string/manage_mission"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
         android:id="@+id/b_new_mission"

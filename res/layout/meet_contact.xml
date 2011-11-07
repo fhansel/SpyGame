@@ -7,30 +7,29 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mission3" 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
-    
+        android:text="@string/mission3"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/meet_contact_prompt" 
-        android:gravity="center"/>
-    
+        android:gravity="center"
+        android:text="@string/meet_contact_prompt" />
+
     <LinearLayout >
 
         <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Code:"/>
-        
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code:" />
+
         <EditText
             android:id="@+id/editText1"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="enter code here">
+            android:hint="enter code here" >
         </EditText>
-    	
     </LinearLayout>
 
 </TableLayout>

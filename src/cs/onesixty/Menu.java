@@ -20,21 +20,18 @@ public class Menu extends Activity {
 		Button btnHighScores = (Button)this.findViewById(R.id.b_main_3);
 		
 		btnManageMissions.setOnClickListener(new OnClickListener(){
-			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), ManageMissions.class);
 				startActivityForResult(intent, 0);
 			}
 		});
 		btnManageFriends.setOnClickListener(new OnClickListener(){
-        	@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), null);
 				startActivityForResult(intent, 0);
 			}
         });
 		btnHighScores.setOnClickListener(new OnClickListener(){
-        	@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), HighScores.class);
 				startActivityForResult(intent, 0);

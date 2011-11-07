@@ -18,14 +18,12 @@ public class ManageMissions extends Activity {
         b_new_mission = (Button) findViewById(R.id.b_new_mission);
         b_deferred_mission = (Button) findViewById(R.id.b_deferred_mission);
 		b_new_mission.setOnClickListener(new OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), NewMission.class);
 				startActivityForResult(intent, 0);
 			}
 		});
 		b_deferred_mission.setOnClickListener(new OnClickListener() {
-			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent(v.getContext(), DeferredMissions.class);
 				startActivityForResult(intent, 0);

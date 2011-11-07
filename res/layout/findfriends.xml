@@ -9,8 +9,9 @@
         android:id="@+id/textView1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text="Find Friends"
-        android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center_horizontal"/>
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <AutoCompleteTextView
         android:id="@+id/autocomplete_friends"

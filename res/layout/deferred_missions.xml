@@ -7,22 +7,22 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mission_list" 
         android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
-    
+        android:text="@string/mission_list"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
     <Button
         android:id="@+id/b_dmission1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/mission1" />
-    
+
     <Button
         android:id="@+id/b_dmission2"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/mission2" />
-    
+
     <Button
         android:id="@+id/b_dmission3"
         android:layout_width="fill_parent"
