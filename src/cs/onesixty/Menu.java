@@ -27,7 +27,7 @@ public class Menu extends Activity {
 		});
 		btnManageFriends.setOnClickListener(new OnClickListener(){
 			public void onClick(View v) {
-				Intent intent = new Intent(v.getContext(), null);
+				Intent intent = new Intent(v.getContext(), ManageFriends.class);
 				startActivityForResult(intent, 0);
 			}
         });
