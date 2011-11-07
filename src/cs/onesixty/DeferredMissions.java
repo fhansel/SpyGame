@@ -18,7 +18,7 @@ public class DeferredMissions extends Activity {
         b_mission1 = (Button) findViewById(R.id.b_dmission1);
         b_mission1.setOnClickListener(new OnClickListener(){
 			public void onClick(View v) {
-				Intent intent = new Intent(v.getContext(), null);
+				Intent intent = new Intent(v.getContext(), DefuseBomb.class);
 				startActivityForResult(intent, 0);
 			}
         });

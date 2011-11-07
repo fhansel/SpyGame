@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        	<TextView
+        	 android:layout_height="wrap_content"
+        	 android:text="@string/Mission"
+        	 android:id="@+id/textview"
+        	 android:textSize="20sp"
+        	 android:background="#003f7f"
+        	 android:gravity="center_horizontal"
+        	 android:layout_gravity="center_horizontal"
+        	 android:layout_width="fill_parent"
+        	 >
+        	</TextView>
+
+        	<TextView
+        	    android:id="@+id/textview"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="10dip"
+        	    android:gravity="center_horizontal"
+        	    android:textColor="#000000"
+        	    android:background="@drawable/speechbubble3"
+        	    android:text="@string/MissionDetails" />
+
+    <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView
+             android:layout_height="wrap_content" 
+             android:layout_width="wrap_content" 
+             android:src="@drawable/spy" 
+             android:id="@+id/imageView1">
+            </ImageView>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dip"
+    android:layout_marginLeft="20dip"
+    >
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dip"
+        android:background="#00ff00"
+        android:padding="10dip"
+        android:text="Accept"
+        android:textSize="16sp" />
+
+    <Button android:id="@+id/reject" android:text="Reject" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+     android:background="#ff0000"
+     android:textSize="16sp"
+     android:layout_marginTop="12dip"
+     android:padding="10dip"
+    >
+    </Button>
+    <Button android:id="@+id/defer" android:text="Defer" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal|center_vertical"
+     android:background="#ffff00"
+     android:textSize="16sp"
+     android:layout_marginTop="12dip"
+     android:padding="10dip"
+    >
+    </Button>
+</LinearLayout>    
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
