@@ -28,6 +28,8 @@
         <activity android:name="InteractFriends"></activity>
         
 		<uses-library android:name="com.google.android.maps" />
+		</application>
 		<uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    </application>
+		<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+		<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 </manifest>
